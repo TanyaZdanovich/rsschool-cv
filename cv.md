@@ -1,4 +1,4 @@
- # Tanya Zdanovich
+## Tanya Zdanovich
 (Aspiring front-end developer)
 
 ## **About me:**
