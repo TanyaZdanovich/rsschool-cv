@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,500;0,700;1,500;1,700&display=swap" rel="stylesheet">
+    <title>CV</title>
+</head>
+<body>
+    <header class="cv__header">
+        <div class="header__container container">
+            <nav class="header__nav">
+                <ul class="nav__list">
+                    <li><a href="#contacts" class="list__item">Contacts</a></li>
+                    <li><a href="#skills" class="list__item">Skills</a></li>
+                    <li><a href="#education" class="list__item">Education</a></li>
+                    <li><a href="#experience" class="list__item">Experience</a></li>
+                    <li><a href="#example" class="list__item">Code Example</a></li>
+                    <li><a href="#languages" class="list__item">Languages</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main class="cv__main">
+        <div class="main__container container">
+            <section class="main__about">
+                <div class="about__box">
+                    <div class="about__avatar">
+                        <div class="avatar__box"></div>
+                        <div class="avatar__img"></div>
+                    </div>
+                    <div class="about__content">
+                        <h1 class="about__name">Tanya Zdanovich</h1>
+                        <h5 class="about__subtitle">(Aspiring front-end developer)</h5>
+                        <h2 class="about__title">About me</h2>
+                        <p class="about__text text">I am responsible, sociable and I have well-developed communication skills. I work well in a team and on individual projects. I really like to study and learn new things and use new information in my projects and assignments.</p>
+                        <p class="about__text text">Opportunity to make something new from scratch is the thing that I like the most about web development. You only need a laptop and your brain to find new solutions to problems.</p>
+                    </div>
+                </div>
+            </section>
+            <section class="main__qualities contacts-skills">
+                <div class="contacts__content" id="contacts">
+                    <h3 class="qualities__title">My Contacts</h3>
+                    <div class="contacts__box">
+                        <div class="contacts__contact">
+                            <img src="assets/icons/mail.svg" alt="mail">
+                            <h5><a href="mailto:tanyazdanovich777@gmail.com" class="contact__link">tanyazdanovich777@gmail.com</a></h5>
+                        </div>
+                        <div class="contacts__contact">
+                            <img src="assets/icons/telegram.svg" alt="telegram">
+                            <h5><a href="https://t.me/tanyazdanovich" class="contact__link">@tanyazdanovich</a></h5>
+                        </div>
+                        <div class="contacts__contact">
+                            <img src="assets/icons/github.svg" alt="github">
+                            <h5><a href="https://github.com/TanyaZdanovich" class="contact__link">TanyaZdanovich</a></h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills__content" id="skills">
+                    <h3 class="qualities__title">My Skills</h3>
+                    <div class="skills__box">
+                        <div class="skills__skill">
+                            <img src="assets/icons/html-icon.svg" alt="html">
+                            <h5 class="skill__title">HTML</h5>
+                        </div>
+                        <div class="skills__skill">
+                            <img src="assets/icons/css-icon.svg" alt="css">
+                            <h5 class="skill__title">CSS</h5>
+                        </div>
+                        <div class="skills__skill">
+                            <img src="assets/icons/ps-icon.svg" alt="photoshop">
+                            <h5 class="skill__title">Adobe Photoshop</h5>
+                        </div>
+                        <div class="skills__skill">
+                            <img src="assets/icons/figma-icon.svg" alt="figma">
+                            <h5 class="skill__title">Figma</h5>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main__qualities education-example">
+                <div class="education__content" id="education">
+                    <h3 class="qualities__title">Education</h3>
+                    <div class="education__box">
+                        <div class="education__college">
+                            <h4 class="education__title">College</h4>
+                            <h5 class="education__subtitle">Grodno State University</h5>
+                            <p class="education__text">(Lida College) (Faculty of Education).</p>
+                        </div>
+                        <div class="education__courses">
+                            <h4 class="education__title">Courses</h4>
+                            <div class="courses__box">
+                                <div class="courses__html courses__course">
+                                    <h5 class="education__subtitle">HTML Basics:</h5>
+                                    <a href="https://code-basics.com/ru/languages/html" class="education__link link"><span>Code basics</span><img src="assets/icons/arrow.svg" alt="arrow" class="arrow"></a>
+                                    <a href="https://ru.hexlet.io/courses/layout-designer-basics" class="education__link link"><span>Hexlet</span><img src="assets/icons/arrow.svg" alt="arrow" class="arrow"></a>
+                                </div>
+                                <div class="courses__css courses__course">
+                                    <h5 class="education__subtitle">СSS Basics:</h5>
+                                    <a href="https://code-basics.com/ru/languages/css" class="education__link link"><span>Code basics</span><img src="assets/icons/arrow.svg" alt="arrow" class="arrow"></a>
+                                    <a href="https://www.codecademy.com/learn/learn-css" class="education__link link"><span>Code Academy</span><img src="assets/icons/arrow.svg" alt="arrow" class="arrow"></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="example__content" id="example">
+                    <h3 class="qualities__title">Code Example</h3>
+                    <div class="example__box">
+                        <pre><code class="example__code">function solution(number){
+    let sum = 0;
+    for(let i = 1; i &lt; number;if (i % 3 === 0 || i % 5 === 0)
+    {
+        sum+=i;
+    } 
+    return sum;
+};
+                        </code></pre>
+                    </div>
+                </div>
+            </section>
+            <section class="main__qualities experience-languages">
+                    <div class="experience__content" id="experience">
+                        <h3 class="qualities__title">Work Experience</h3>
+                        <p class="experience__text text">No relevant work experience.</p>
+                    </div>
+                    <div class="languages__content" id="languages">
+                        <h3 class="qualities__title">Languages</h3>
+                        <h5 class="languages__text">Russian (native)</h5>
+                        <h5 class="languages__text">Belarussian (native)</h5>
+                        <h5 class="languages__text">English (Level C1-C2)</h5>
+                    </div>
+            </section>
+            <section class="main__projects">
+                <h3 class="qualities__title">My Projects</h3>
+                <div class="projects__content">
+                    <div class="projects__box">
+                        <a href="https://tanyazdanovich.github.io/shelter/shelter/pages/main/index.html" class="projects__link link"><span>Shelter</span><img src="assets/icons/arrow.svg" alt="arrow" class="arrow"></a>
+                        <img src="assets/img/project-1.jpg" alt="shelter">
+                    </div>
+                    <div class="projects__box">
+                        <a href="https://tanyazdanovich.github.io/portfolio/portfolio/" class="projects__link link"><span>Portfolio</span><img src="assets/icons/arrow.svg" alt="arrow" class="arrow"></a>
+                        <img src="assets/img/project-2.jpg" alt="portfolio">
+                    </div>
+                </div>
+                
+            </section>
+        </div>
+    </main>
+    <footer class="cv__footer">
+        <div class="footer__container container">
+            <a href="https://rs.school/js/" class="footer__logo"><img src="assets/icons/rs_school_js_logo.svg" alt="logo"></a>
+            <div class="footer__text">
+                <p class="footer__copyright">© 2022</p>
+                <a href="https://github.com/TanyaZdanovich" class="footer__github">My Github</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
